@@ -322,7 +322,7 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.42857143;
   color: #333333;
   background-color: #ffffff;
@@ -6564,7 +6564,7 @@ article h2 {
 }
 article p {
   line-height: 27px;
-  font-size: 14px;
+  font-size: 18px;
   margin: 0 0 5px;
 }
 .video-holder a {
