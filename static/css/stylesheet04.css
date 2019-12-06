@@ -800,10 +800,18 @@ pre code {
   .container {
     width: 970px;
   }
+  .excerpt {
+    width: 970px;
+    height:10px;
+  }
 }
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+  .excerpt {
+    width: 1170px;
+    height:10px;
   }
 }
 .container-fluid {
@@ -6204,7 +6212,7 @@ h4 {
   left: 0;
   right: 0;
 }
-.section-title .excerpt {
+.section-title {
   margin: 22px auto;
   width: 60%;
 }
