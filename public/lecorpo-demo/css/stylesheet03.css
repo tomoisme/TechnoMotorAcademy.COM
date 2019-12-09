@@ -322,7 +322,7 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
   background-color: #ffffff;
@@ -795,23 +795,14 @@ pre code {
   .container {
     width: 750px;
   }
-  .section-title {
-    width: 750px;
-  }
 }
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
-  .section-title {
-    width: 970px;
-  }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
-  }
-  .section-title {
     width: 1170px;
   }
 }
@@ -6418,7 +6409,7 @@ header .top-menu-holder ul li a:focus {
   top: 0;
   bottom: 0;
   margin: auto;
-  top: 30%;
+  top: 68%;
   text-align: center;
   color: #ffffff;
 }
@@ -6573,7 +6564,7 @@ article h2 {
 }
 article p {
   line-height: 27px;
-  font-size: 18px;
+  font-size: 14px;
   margin: 0 0 5px;
 }
 .video-holder a {
@@ -7757,7 +7748,7 @@ select.top-drop-menu {
     text-align: center;
   }
   .home-slider .flexslider .flex-caption {
-    /**top: 88%;**/
+    top: 88%;
   }
   .home-slider .flexslider .flex-caption .big {
     font-size: 40px;

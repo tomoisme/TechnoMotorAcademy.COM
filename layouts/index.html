@@ -4,14 +4,14 @@
 <head>
 
   <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <title>{{ .Title }}</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <meta name="keywords" content="{{ .Keywords }}">
   <meta name="description" content="{{ .Description }}">
   <meta name="robots" content="all">
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/prettyPhoto.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/flexslider.css">
@@ -36,7 +36,7 @@
       /***********************************************
        * Style Sheet Switcher v1.1- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
        * This notice MUST stay intact for legal use
-       * Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+       * Visit Dynamic Drive at https://www.dynamicdrive.com/ for this script and 100s more
        ***********************************************/
     </script> -->
 
@@ -49,7 +49,7 @@
   </div>
 
   <div class="wrapper">
-    <header>
+    <!-- <header>
       <div class="container">
         <div class="col-xs-12 col-md-3 logo-holder">
           <div class="logo">
@@ -71,7 +71,7 @@
                 <a href="#about">Tentang TMA</a>
               </li>
               <li>
-                <a href="#services">services</a>
+                <a href="#keunggulan">Keunggulan</a>
               </li>
               <li>
                 <a href="#portfolio">portfolio</a>
@@ -123,7 +123,7 @@
       </div>
 
 
-    </header>
+    </header> -->
 
 
     <section id="home" class="home-slider">
@@ -135,12 +135,11 @@
           <div class="4"></div>
           <div class="5"></div>
         </div>
-
-
         <ul class="slides">
           <li class="slide">
             <div class="image" data-background-image="images/slides/slide01.jpg"></div>
             <div class="flex-caption">
+              <img alt="" src="{{ .Site.BaseURL }}/images/logo-tma.png" style="width:auto; display: inline;" />
               <div class="big uppercase">
                 Techno Motor Academy
               </div>
@@ -165,14 +164,7 @@
     <section id="about">
       <div class="container">
         <div class="section-title">
-          <div class="sticker">
-            <div class="icon">
-              <i class="fa fa-code"></i>
-            </div>
-            <h1>Tentang Techno Motor</h1>
-          </div>
-          <div class="excerpt">
-          </div>
+          <h1 style="padding:30px 0;">Tentang Techno Motor Academy</h1>
         </div>
 
         <div class="col-md-6">
@@ -191,9 +183,6 @@
               otomotif sepeda motor sekaligus memenuhi kebutuhan pasar akan tenaga kerja
               mekanik sepeda motor.
             </p>
-            <div class="button-holder">
-              <a class="readmore le-btn" href="#">readmore</a>
-            </div>
             <div class="social-icons big">
               <ul>
                 <li>
@@ -226,832 +215,147 @@
       </div>
     </section>
 
+    <section class="bg-color">
+      <div class="container" style="padding:50px 0;">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 style="margin-bottom: 20px;">Untuk kamu yang:</h3> 
 
-    <section id="services" class="bg-color" data-background-image="images/bg-services.jpg">
-      <div class="container">
-        <div class="section-title inverse">
-          <div class="sticker">
-            <div class="icon">
-              <i class="fa fa-gears"></i>
-            </div>
-            <h1>services</h1>
-          </div>
-          <div class="excerpt">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-            sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-          </div>
+            <p style="font-size:18px;"><i class="fa fa-check"></i> Mau bekerja di dunia otomotif sepeda motor?</p>
+            <p style="font-size:18px;"><i class="fa fa-check"></i> Mau buka bengkel sepeda motor sendiri?</p>
+            <p style="font-size:18px;"><i class="fa fa-check"></i> Hobi otomotif dan suka ngoprek motor</p>
 
-        </div>
+            <p>Techno Motor Academy akan membantu kamu untuk menjadi mekanik sepeda motor profesional. <br>
+              Bersama instruktur berpengalaman dan telah teruji, kamu akan dilatih untuk memasuki dunia
+              otomotif sepeda motor.</p>
 
-        <div class="services-holder row">
-          <div class="col-md-3 ">
-            <div class="service-item">
+            <h3 style="margin-bottom: 20px;">Info Pendaftaran, Hubungi:</h3>
 
-              <div class="icon">
-                <i class="fa fa-pencil"></i>
-              </div>
-              <div class="title">
-                <h3>web development</h3>
-              </div>
-              <div class="body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris. Morbi non
-                pellentesque nisl. Mauris venenatis augue ut nulla.
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="service-item">
+            <a href="tel:08123456789" class="btn btn-lg btn-default">08123456789 (WA/Call)</a>
 
-              <div class="icon">
-                <i class="fa fa-camera"></i>
-              </div>
-              <div class="title">
-                <h3>photography</h3>
-              </div>
-              <div class="body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris. Morbi non
-                pellentesque nisl. Mauris venenatis augue ut nulla.
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="service-item">
-
-              <div class="icon">
-                <i class="fa fa-comment"></i>
-              </div>
-              <div class="title">
-                <h3>consulting</h3>
-              </div>
-              <div class="body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris. Morbi non
-                pellentesque nisl. Mauris venenatis augue ut nulla.
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="service-item">
-
-              <div class="icon">
-                <i class="fa fa-gamepad"></i>
-              </div>
-              <div class="title">
-                <h3>game development</h3>
-              </div>
-              <div class="body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris. Morbi non
-                pellentesque nisl. Mauris venenatis augue ut nulla.
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="portfolio">
+    <section style="padding-bottom:50px;">
       <div class="container">
-        <div class="section-title inverse">
-          <div class="sticker">
-            <div class="icon">
-              <i class="fa fa-archive"></i>
-            </div>
-            <h1>portfolio</h1>
+        <div class="section-title simple inverse">
+          <h1 style="color: black;">Peluang Besar Di Industri Otomotif Sepeda Motor</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://placehold.it/900x600" alt="">
           </div>
-          <div class="excerpt">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-            sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-          </div>
+          <div class="col-md-6 text-justify">
+            <p style="font-size: 18px;">
+              Dunia otomotif sepeda motor semakin berkembang dan membutuhkan
+              tenaga kerja mekanik yang siap kerja setiap tahunnya.
+              Ini saat yang tepat bagi kamu yang ingin memiliki karir di
+              bidang otomotif sepeda motor sebagai mekanik/montir profesional.
+            </p>
 
+            <p style="font-size: 18px;">
+              Sistem belajar 10% teori dan 90% praktek yang dibimbing langsung
+              oleh pengajar profesional. Waktu training relatif singkat,
+              hanya dalam kurun waktu 3-4 bulan kamu akan diberikan pelatihan intensif
+              untuk berkarir secara profesional.</p>
+
+
+            <p style="font-size: 18px;">
+              <strong style="font-size: 24px;">Ayo gabung menjadi mekanik motor handal bersama Techno Motor
+                Academy!</strong> <br>
+              Dengan materi kursus yang berkualitas,
+              kami siap membantu kamu untuk menjadi mekanik profesional
+              di bidang otomotif roda dua.</p>
+
+            <a href="#" class="btn btn-success uppercase"><i class="fa fa-phone"></i> Daftar Kursus</a>
+          </div>
         </div>
       </div>
-      <div id="filters" class="group-selectors">
-        <a class="active" href="#all" data-filter="*">all</a>
-        <a href="#advertisement" data-filter=".advertisement">advertisement</a>
-
-        <a href="#illustration" data-filter=".illustration">illustration</a>
-        <a href="#web" data-filter=".web">web</a>
-
-        <a href="#branding" data-filter=".branding">branding</a>
-
-      </div>
-      <div id="portfolio-grid" class="row">
-        <figure class="portfolio-item illustration">
-          <div class="category">
-            illustration
-          </div>
-          <div class="holder">
-            <div class="title">
-              Cartoon Man
-            </div>
-            <a data-rel="prettyphoto" href="images/portfolio/work01.jpg">
-              <img alt="" src="{{ .Site.BaseURL }}/images/portfolio/work01.jpg" width="405" height="561" />
-            </a>
-            <div class="excerpt">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-              </p>
-              <div class="button-holder">
-                <a class="le-btn small readmore">readmore</a>
-              </div>
-            </div>
-          </div>
-        </figure>
-
-
-        <figure class="portfolio-item advertisement">
-          <div class="category">
-            advertisement
-          </div>
-          <div class="holder">
-            <div class="title">
-              Kill Em' All
-            </div>
-            <a data-rel="prettyphoto" href="images/portfolio/work02.jpg">
-              <img alt="" src="{{ .Site.BaseURL }}/images/portfolio/work02.jpg" width="401" height="561" />
-            </a>
-            <div class="excerpt">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-              </p>
-              <div class="button-holder">
-                <a class="le-btn small readmore">readmore</a>
-              </div>
-            </div>
-          </div>
-        </figure>
-
-
-
-        <figure class="portfolio-item branding">
-          <div class="category">
-            branding
-          </div>
-          <div class="holder">
-            <div class="title">
-              Hit your boss
-            </div>
-            <a data-rel="prettyphoto" href="images/portfolio/work04.jpg">
-              <img alt="" src="{{ .Site.BaseURL }}/images/portfolio/work04.jpg" width="351" height="351" />
-            </a>
-            <div class="excerpt">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-              </p>
-              <div class="button-holder">
-                <a class="le-btn small readmore">readmore</a>
-              </div>
-            </div>
-          </div>
-        </figure>
-        <figure class="portfolio-item advertisement web">
-          <div class="category">
-            web
-          </div>
-          <div class="holder">
-            <div class="title">
-              Let's Eat Fish
-            </div>
-            <a data-rel="prettyphoto" href="images/portfolio/work03.jpg">
-              <img alt="" src="{{ .Site.BaseURL }}/images/portfolio/work03.jpg" width="352" height="462" />
-            </a>
-            <div class="excerpt">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-              </p>
-              <div class="button-holder">
-                <a class="le-btn small readmore">readmore</a>
-              </div>
-            </div>
-          </div>
-        </figure>
-        <figure class=" portfolio-item branding">
-          <div class="category">
-            branding
-          </div>
-          <div class="holder">
-            <div class="title">
-              Are you cola?
-            </div>
-            <a data-rel="prettyphoto" href="images/portfolio/work05.jpg">
-              <img alt="" src="{{ .Site.BaseURL }}/images/portfolio/work05.jpg" width="812" height="508" />
-            </a>
-            <div class="excerpt">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-              </p>
-              <div class="button-holder">
-                <a class="le-btn small readmore">readmore</a>
-              </div>
-            </div>
-          </div>
-        </figure>
-
-        <figure class=" portfolio-item branding">
-          <div class="category">
-            branding
-          </div>
-          <div class="holder">
-            <div class="title">
-              the boss?
-            </div>
-            <a data-rel="prettyphoto" href="images/portfolio/work06.jpg">
-              <img alt="" src="{{ .Site.BaseURL }}/images/portfolio/work06.jpg" width="351" height="250" />
-            </a>
-            <div class="excerpt">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-
-            </div>
-          </div>
-        </figure>
-
-      </div>
-
-
     </section>
 
-
-    <section id="funfacts" class="bg-color" data-background-image="images/bg-funfact.jpg">
+    <section id="services" class="bg-color" style="padding-bottom:100px;">
       <div class="container">
         <div class="section-title simple">
-
-          <h1>our fun facts</h1>
-
+          <h1>Kenapa Belajar Di Techno Motor Academy?</h1>
         </div>
-        <div class="row facts-holder">
-          <div class="col-md-3">
-            <div class="fact-item">
-              <div class="icon">
-                <i class="fa fa-clock-o"></i>
+        <div class="services-holder row" style="margin-top:20px;">
+          <div class="col-md-4 ">
+            <div class="service-item">
+              <div class="icon" style="margin-bottom: 10px;">
+                <i class="fa fa-plus-circle"></i>
               </div>
-              <div class="value">
-                4528
-              </div>
-              <div class="caption">
-                hours of week
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="fact-item">
-              <div class="icon">
-                <i class="fa fa-coffee"></i>
-              </div>
-              <div class="value">
-                125
-              </div>
-              <div class="caption">
-                coffees drank
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="fact-item">
-              <div class="icon">
-                <i class="fa fa-music"></i>
-              </div>
-              <div class="value">
-                645
-              </div>
-              <div class="caption">
-                tracks played
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="fact-item">
-              <div class="icon">
-                <i class="fa fa-group"></i>
-              </div>
-              <div class="value">
-                12
-              </div>
-              <div class="caption">
-                clients
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="blog" data-bg-color="#F2F2F3">
-      <div class="container">
-        <div class="section-title">
-          <div class="sticker">
-            <div class="icon">
-              <i class="fa fa-pencil"></i>
-            </div>
-            <h1>Blog</h1>
-          </div>
-          <div class="excerpt">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-            sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-          </div>
-
-        </div>
-
-
-
-        <div class="blog-list-holder row">
-
-
-          <div class="blog-item item col-xs-12 col-sm-4">
-
-            <div class="thumb">
-              <img alt="" src="{{ .Site.BaseURL }}/images/blog/img01.jpg" />
-            </div>
-            <div class="info-area">
-              <div class="date">
-                01 march 2013
-              </div>
-              <div class="title">
-                Lorem ipsum dolor sit amet
-              </div>
-              <div class="excerpt">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat mi in augue adipiscing,
-                  ut consectetur libero rhoncus.
-                </p>
-              </div>
-
-              <a class="le-btn" href="single-post.html">readmore</a>
-            </div>
-
-
-          </div>
-
-          <div class="blog-item item col-xs-12 col-sm-4">
-
-            <div class="thumb">
-              <img alt="" src="{{ .Site.BaseURL }}/images/blog/img02.jpg" />
-            </div>
-            <div class="info-area">
-              <div class="date">
-                01 march 2013
-              </div>
-              <div class="title">
-                Lorem ipsum dolor sit amet
-              </div>
-              <div class="excerpt">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat mi in augue adipiscing,
-                  ut consectetur libero rhoncus.
-                </p>
-              </div>
-
-              <a class="le-btn" href="single-post.html">readmore</a>
-
+              <p><strong>Pembayaran Dapat Diangsur, Waktu Training Yang Fleksibel</strong></p>
             </div>
 
           </div>
-
-
-
-          <div class="blog-item item col-xs-12 col-sm-4">
-
-            <div class="thumb">
-              <img alt="" src="{{ .Site.BaseURL }}/images/blog/img03.jpg" />
-            </div>
-            <div class="info-area">
-              <div class="date">
-                01 march 2013
-              </div>
-              <div class="title">
-                Lorem ipsum dolor sit amet
-              </div>
-              <div class="excerpt">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat mi in augue adipiscing,
-                  ut consectetur libero rhoncus.
-                </p>
-              </div>
-
-              <a class="le-btn" href="single-post.html">readmore</a>
-
-            </div>
-
-          </div>
-
-
-
-          <div class="blog-item item col-xs-12 col-sm-4">
-
-            <div class="thumb">
-              <img alt="" src="{{ .Site.BaseURL }}/images/blog/img04.jpg" />
-            </div>
-            <div class="info-area">
-              <div class="date">
-                01 march 2013
-              </div>
-              <div class="title">
-                Lorem ipsum dolor sit amet
-              </div>
-              <div class="excerpt">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat mi in augue adipiscing,
-                  ut consectetur libero rhoncus.
-                </p>
-              </div>
-
-              <a class="le-btn" href="single-post.html">readmore</a>
-            </div>
-
-
-          </div>
-
-
-          <div class="blog-item item col-xs-12 col-sm-4">
-
-            <div class="thumb">
-              <img alt="" src="{{ .Site.BaseURL }}/images/blog/img05.jpg" />
-            </div>
-            <div class="info-area">
-              <div class="date">
-                01 march 2013
-              </div>
-              <div class="title">
-                Lorem ipsum dolor sit amet
-              </div>
-              <div class="excerpt">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat mi in augue adipiscing,
-                  ut consectetur libero rhoncus.
-                </p>
-              </div>
-
-              <a class="le-btn" href="single-post.html">readmore</a>
-
-            </div>
-
-          </div>
-
-
-
-          <div class="blog-item item col-xs-12 col-sm-4">
-
-            <div class="thumb">
-              <img alt="" src="{{ .Site.BaseURL }}/images/blog/img06.jpg" />
-            </div>
-            <div class="info-area">
-              <div class="date">
-                01 march 2013
-              </div>
-              <div class="title">
-                Lorem ipsum dolor sit amet
-              </div>
-              <div class="excerpt">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat mi in augue adipiscing,
-                  ut consectetur libero rhoncus.
-                </p>
-              </div>
-
-              <a class="le-btn" href="single-post.html">readmore</a>
-
-            </div>
-
-          </div>
-
-
-        </div>
-
-
-
-      </div>
-    </section>
-    <section id="team">
-      <div class="container">
-        <div class="section-title">
-          <div class="sticker">
-            <div class="icon">
-              <i class="fa fa-group"></i>
-            </div>
-            <h1>meet the <span>team</span></h1>
-          </div>
-          <div class="excerpt">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-            sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-          </div>
-
-        </div>
-        <div class="teams-holder row">
           <div class="col-md-4">
-            <div class="team-item">
-              <div class="image">
-                <div class="name">
-                  <h2 class="title">John doe</h2>
-                  <span class="position">CEO-Founder</span>
-                </div>
-                <img alt="" src="{{ .Site.BaseURL }}/images/member01.jpg" />
+            <div class="service-item">
+              <div class="icon" style="margin-bottom: 10px;">
+                <i class="fa fa-plus-circle"></i>
               </div>
-              <div class="hover">
-                <h2 class="title">John doe</h2>
-                <span class="position">CEO-Founder</span>
-                <div class="excerpt">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                  sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-                </div>
-                <div class="social-icons">
-                  <ul>
-                    <li><a href="#" class="fa fa-facebook"></a></li>
-                    <li><a href="#" class="fa fa-twitter"></a></li>
-                    <li><a href="#" class="fa fa-google-plus"></a></li>
-                  </ul>
-                </div>
-              </div>
+
+              <p><strong>Biaya Terjangkau, Training Lebih Singkat</strong></p>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="team-item">
-              <div class="image">
-                <div class="name">
-                  <h2 class="title">jane doe</h2>
-                  <span class="position">programmer</span>
-                </div>
-                <img alt="" src="{{ .Site.BaseURL }}/images/member03.jpg" />
+            <div class="service-item">
+              <div class="icon" style="margin-bottom: 10px;">
+                <i class="fa fa-plus-circle"></i>
               </div>
-              <div class="hover">
-                <h2 class="title">jane doe</h2>
-                <span class="position">programmer</span>
-                <div class="excerpt">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                  sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-                </div>
-                <div class="social-icons">
-                  <ul>
-                    <li><a href="#" class="fa fa-facebook"></a></li>
-                    <li><a href="#" class="fa fa-twitter"></a></li>
-                    <li><a href="#" class="fa fa-google-plus"></a></li>
-                  </ul>
-                </div>
-              </div>
+              <p><strong>Fasilitas Dan Prasarana Training yang lengkap</strong></p>
             </div>
           </div>
-
+        </div>
+        <div class="services-holder row" style="margin-top:20px;">
           <div class="col-md-4">
-            <div class="team-item">
-              <div class="image">
-                <div class="name">
-                  <h2 class="title">James brown</h2>
-                  <span class="position">UI/UX</span>
-                </div>
-                <img alt="" src="{{ .Site.BaseURL }}/images/member02.jpg" />
+            <div class="service-item">
+              <div class="icon" style="margin-bottom: 10px;">
+                <i class="fa fa-plus-circle"></i>
               </div>
-              <div class="hover">
-                <h2 class="title">James brown</h2>
-                <span class="position">UI/UX</span>
-                <div class="excerpt">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                  sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-                </div>
-                <div class="social-icons">
-                  <ul>
-                    <li><a href="#" class="fa fa-facebook"></a></li>
-                    <li><a href="#" class="fa fa-twitter"></a></li>
-                    <li><a href="#" class="fa fa-google-plus"></a></li>
-                  </ul>
-                </div>
+              <p><strong>Materi kursus yang berkualitas dan teruji</strong></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <div class="icon" style="margin-bottom: 10px;">
+                <i class="fa fa-plus-circle"></i>
               </div>
+              <p><strong>Tenaga pengajar yang profesional dan berpengalaman</strong></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <div class="icon" style="margin-bottom: 10px;">
+                <i class="fa fa-plus-circle"></i>
+              </div>
+              <p><strong>Kerjasama strategis dengan berbagai perusahaan </strong></p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-
-
-    <section id="recommends" class="bg-color" data-background-image="images/bg-recommendations.jpg">
+    <section style="padding: 100px 0;">
       <div class="container">
-        <div class="recommends-holder">
-          <div class="recommend-item">
-            <div class="avatar">
-              <img src="{{ .Site.BaseURL }}/images/member01.jpg" alt="" />
-            </div>
-            <div class="body">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-              </p>
-              <div class="name">
-                <span>john doe</span> - CEO / Founder
-              </div>
-            </div>
-            <div class="co-logo">
-              <img src="{{ .Site.BaseURL }}/images/clients/partner-1.png" alt="" />
-            </div>
-          </div>
-          <div class="recommend-item">
-            <div class="avatar">
-              <img src="{{ .Site.BaseURL }}/images/member02.jpg" alt="" />
-            </div>
-            <div class="body">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-              </p>
-              <div class="name">
-                <span>john doe</span> - CEO / Founder
-              </div>
-            </div>
-            <div class="co-logo">
-              <img src="{{ .Site.BaseURL }}/images/clients/partner-2.png" alt="" />
-            </div>
-          </div>
-
-          <div class="recommend-item">
-            <div class="avatar">
-              <img src="{{ .Site.BaseURL }}/images/member03.jpg" alt="" />
-            </div>
-            <div class="body">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-                sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-              </p>
-              <div class="name">
-                <span>john doe</span> - CEO / Founder
-              </div>
-            </div>
-            <div class="co-logo">
-              <img src="{{ .Site.BaseURL }}/images/clients/partner-3.png" alt="" />
-            </div>
-          </div>
-
+        <div class="row">
+          <h1 style="margin-bottom: 30px;">Kenapa Belajar Jadi Mekanik Sepeda Motor?</h1>
+          <p style="font-size: 18px;">
+            Di Indonesia semua orang tahu bahwa alat transportasi yang paling banyak digunakan adalah
+            sepeda motor. Kendaraan roda dua ini sudah seperti layaknya hal yang umum yang dapat kamu
+            temui dimana saja, baik di perkotaan dan pedesaan. Jumlahnya bahkan mencapai angka ratusan
+            juta unit!
+          </p>
+          <p style="font-size: 18px;">
+            Bisa kamu bayangkan sendiri berapa banyak kebutuhan akan mekanik sepeda motor di
+            Indonesia. Dengan skill mekanik yang baik, potensi pasar yang besar akan dapat menyerap kamu sebagai tenaga kerja. Selain itu pula,
+            jika kamu berminat untuk membuka bengkel sepeda motor sendiri, juga dapat kamu wujudkan bersama Techno Motor Academy!
+          </p>
         </div>
-
-
       </div>
-      <div class="pagination-bullets">
-
-      </div>
-    </section>
-
-
-    <section id="contact">
-      <div class="container">
-        <div class="section-title">
-          <div class="sticker">
-            <div class="icon">
-              <i class="fa fa-envelope-o"></i>
-            </div>
-            <h1>contact us</h1>
-          </div>
-          <div class="excerpt">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend odio nunc, ac commodo augue
-            sollicitudin vitae. Donec quam risus, fermentum in luctus at, sodales eget mauris.
-          </div>
-
-        </div>
-
-
-        <div class="row row-contact">
-          <div class="col-xs-12 col-md-5">
-            <div class="contact-info">
-              <h2>contact info</h2>
-              <ul>
-                <li>
-                  <label>address:</label> Ataturk Blvd, 6209 St, Suite 877<br>Istanbul,Turkey
-                </li>
-                <li>
-                  <label>email:</label> <a href="#">info@example.com</a>
-                </li>
-                <li>
-                  <label>phone:</label> <a href="#">+90 555 111 2233</a>
-                </li>
-                <li>
-                  <label>fax</label> <a href="#">+90 123 456 7890</a>
-                </li>
-              </ul>
-
-              <div class="social-icons">
-                <ul>
-                  <li>
-                    <a class="fa fa-facebook" href="#"></a>
-                  </li>
-                  <li>
-                    <a class="fa fa-twitter" href="#"></a>
-                  </li>
-                  <li>
-                    <a class="fa fa-google-plus" href="#"></a>
-                  </li>
-                  <li>
-                    <a class="fa fa-youtube" href="#"></a>
-                  </li>
-                  <li>
-                    <a class="fa fa-linkedin" href="#"></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-md-6">
-            <div class="contact-form-holder">
-
-              <div class="message-box"></div>
-
-              <form id="contact-form" class="contact-form " method="post">
-
-
-
-
-                <div class="col-xs-12 col-sm-6 no-margin">
-                  <div class="control-group">
-
-                    <div class="controls">
-
-
-                      <input id="cname" data-placeholder="your name*" name="name" size="25"
-                        class="le-input  required col-xs-12" />
-
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 no-margin">
-                  <div class="control-group">
-
-                    <div class="controls">
-
-
-                      <input id="cemail" data-placeholder="your email*" name="email"
-                        class="le-input  required email col-xs-12" />
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col-xs-12  no-margin">
-                  <div class="control-group">
-
-                    <div class="controls">
-
-
-                      <input id="subject" data-placeholder="subject" name="subject" size="25"
-                        class="le-input col-xs-12" />
-
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col-xs-12 no-margin">
-                  <div class="control-group">
-
-                    <div class="controls">
-
-
-                      <textarea id="ccomment" class=" le-input col-xs-12 no-margin" name="message" rows="9" cols="5"
-                        data-placeholder="Message"></textarea>
-
-
-                    </div>
-                  </div>
-                </div>
-
-
-
-                <div class="col-xs-12 no-margin">
-                  <div class="button-holder">
-                    <input class="submit  le-btn big" type="submit" value="send" />
-                  </div>
-                  <div id="loading" class="pull-right">
-                    <img alt="" src="{{ .Site.BaseURL }}/images/loader.gif" />
-                  </div>
-                </div>
-
-
-
-
-
-              </form>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-      <div class="map-holder">
-
-
-        <div id="map" class="map"></div>
-      </div>
-
     </section>
 
     <section id="footer">
-
       <div class="logo">
         <a href="#">
           <img src="{{ .Site.BaseURL }}/images/logo-tma.png" alt="" />
@@ -1071,7 +375,7 @@
   <script src="{{ .Site.BaseURL }}/js/jquery-1.11.1.min.js"></script>
   <script src="{{ .Site.BaseURL }}/js/jquery-migrate-1.2.1.min.js"></script>
   <script src="{{ .Site.BaseURL }}/css/bootstrap/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
   <script type="text/javascript" src="{{ .Site.BaseURL }}/js/css_browser_selector.js"></script>
   <script type="text/javascript" src="{{ .Site.BaseURL }}/js/jquery.flexslider-min.js"></script>
   <script type="text/javascript" src="{{ .Site.BaseURL }}/js/jquery.easing-1.3.js"></script>
