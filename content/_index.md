@@ -6,5 +6,3 @@ keywords: "kursus mekanik motor, kursus montir motor, kursus motor, kursus seped
 descriptions: "Kursus mekanik sepeda motor paling dicari di Indonesia. Mari gabung menjadi montir sepeda motor handal bersama Techno Motor Academy"
 layout: "index"
 ---
-
-## Test
