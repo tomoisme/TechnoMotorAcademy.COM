@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://technomotoracademy.com/ssg/</loc><lastmod>2019-11-23T16:24:29+07:00</lastmod></url><url><loc>https://technomotoracademy.com/ssg/categories/</loc></url><url><loc>https://technomotoracademy.com/ssg/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.technomotoracademy.com/program-csr/</loc>
+    <lastmod>2020-01-14T18:12:35+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.technomotoracademy.com/galeri/</loc>
+    <lastmod>2020-01-14T18:12:25+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.technomotoracademy.com/program-pelatihan/</loc>
+    <lastmod>2020-01-14T18:12:15+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.technomotoracademy.com/</loc>
+    <lastmod>2020-01-09T20:57:38+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.technomotoracademy.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.technomotoracademy.com/tags/</loc>
+  </url>
+  
+</urlset>

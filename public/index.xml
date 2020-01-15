@@ -1,1 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Techno Motor Academy - Kursus Mekanik Bengkel Motor Paling Dicari on My New Hugo Site</title><link>https://technomotoracademy.com/ssg/</link><description>Recent content in Techno Motor Academy - Kursus Mekanik Bengkel Motor Paling Dicari on My New Hugo Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 23 Nov 2019 16:24:29 +0700</lastBuildDate><atom:link href="https://technomotoracademy.com/ssg/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Techno Motor Academy - Kursus Mekanik Bengkel Motor Paling Dicari on </title>
+    <link>https://www.technomotoracademy.com/</link>
+    <description>Recent content in Techno Motor Academy - Kursus Mekanik Bengkel Motor Paling Dicari on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-ID</language>
+    <lastBuildDate>Thu, 09 Jan 2020 20:57:38 +0700</lastBuildDate>
+    
+	<atom:link href="https://www.technomotoracademy.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Program CSR Techno Motor Academy</title>
+      <link>https://www.technomotoracademy.com/program-csr/</link>
+      <pubDate>Tue, 14 Jan 2020 18:12:35 +0700</pubDate>
+      
+      <guid>https://www.technomotoracademy.com/program-csr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galeri Kursus Montir Bengkel Motor TMA</title>
+      <link>https://www.technomotoracademy.com/galeri/</link>
+      <pubDate>Tue, 14 Jan 2020 18:12:25 +0700</pubDate>
+      
+      <guid>https://www.technomotoracademy.com/galeri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Program Pelatihan Kursus Montir Motor TMA</title>
+      <link>https://www.technomotoracademy.com/program-pelatihan/</link>
+      <pubDate>Tue, 14 Jan 2020 18:12:15 +0700</pubDate>
+      
+      <guid>https://www.technomotoracademy.com/program-pelatihan/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

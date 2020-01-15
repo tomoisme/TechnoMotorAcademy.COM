@@ -40,29 +40,7 @@
 	<link rel="stylesheet" type="text/css"
 		href="{{ .Site.BaseURL }}/plugins/revolution/revolution/css/revolution.min.css">
 
-	<style type="text/css">
-		.soundcloudwrapper iframe {
-			width: 100% !important
-		}
 
-		.news-header .tp-tab-title {
-			color: #fff;
-			font-size: 17px;
-			font-weight: 700;
-			text-transform: uppercase;
-			margin-bottom: 5px;
-			width: 350px;
-			display: block;
-			letter-spacing: 1px;
-		}
-
-		.news-header .tp-tab-desc {
-			font-size: 16px;
-			font-weight: 500;
-			color: var(--color-primary);
-			line-height: 25px;
-		}
-	</style>
 </head>
 
 <body id="bg">
@@ -782,19 +760,19 @@
 									</div>
 								</div>
 
-								<p class="text-capitalize m-b20">Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry has been the industry's standard dummy text ever since the..
+								<p class="m-b20">Isi form di bawah ini untuk gabung kursus montir motor di Techno Motor
+									Academy!
 								</p>
 								<div class="subscribe-form m-b20">
-									<form class="dzSubscribe" action="#" method="post">
+									<form action="#" method="post">
 										<div class="dzSubscribeMsg"></div>
 										<div class="input-group">
-											<input name="nama" required="required" class="form-control"
+											<input name="nama" class="form-control"
 												placeholder="Nama" type="text">
 										</div>
 										<br>
 										<div class="input-group">
-											<input name="nohp" required="required" class="form-control"
+											<input name="nohp" class="form-control"
 												placeholder="No. HP" type="text">
 											<select name="kelas" id="">
 												<option disabled>Pilih Kelas: </option>
@@ -803,13 +781,17 @@
 											</select>
 										</div>
 										<br>
-											<button name="submit" value="Submit" type="submit"
+										<button name="submit" value="Submit" type="submit"
 											class="btn btn-outline-primary">Daftar</button>
-										
-											<a href="#" class="btn btn-outline-success">Kirim WA</a>
+
+										<a href="https://api.whatsapp.com/send?phone=6287877933010" id="wabutton"
+											class="btn btn-outline-success">Kirim WA</a>
+
+										<!-- <a href="#" id="testbutton"
+											class="btn btn-outline-success">Kirim WA</a> -->
 										<br>
-										
-										
+
+
 								</div>
 								</form>
 							</div>
@@ -892,6 +874,16 @@
 		jQuery(document).ready(function () {
 			'use strict';
 			dz_rev_slider_3();
+
+			var nama = $("input[name=nama]").val();
+			var nohp = $("input[name=nohp]").val();
+			var kelas = $("select[name=kelas]").val();
+
+			$("#wabutton").click(function () {
+				$('#wabutton').attr('href', function () {
+					return this.href + "&text=Nama%3A%20"+nama+"%0ANo.%20HP%3A%20"+nohp+"%0AKelas%3A%20"+kelas;
+				});
+			});
 		});	/*ready*/
 	</script>
 </body>
