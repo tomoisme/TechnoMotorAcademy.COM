@@ -3,31 +3,50 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.technomotoracademy.com/program-csr/</loc>
+    <loc>https://www.technomotoracademy.com/ssg/program-csr/</loc>
     <lastmod>2020-01-14T18:12:35+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.technomotoracademy.com/galeri/</loc>
+    <loc>https://www.technomotoracademy.com/ssg/galeri/</loc>
     <lastmod>2020-01-14T18:12:25+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.technomotoracademy.com/program-pelatihan/</loc>
+    <loc>https://www.technomotoracademy.com/ssg/program-pelatihan/</loc>
     <lastmod>2020-01-14T18:12:15+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.technomotoracademy.com/</loc>
+    <loc>https://www.technomotoracademy.com/ssg/</loc>
     <lastmod>2020-01-09T20:57:38+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.technomotoracademy.com/categories/</loc>
+    <loc>https://www.technomotoracademy.com/ssg/vendor/phpmailer/phpmailer/readme/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.technomotoracademy.com/tags/</loc>
+    <loc>https://www.technomotoracademy.com/ssg/vendor/phpmailer/phpmailer/security/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.technomotoracademy.com/ssg/vendor/vlucas/valitron/readme/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.technomotoracademy.com/ssg/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.technomotoracademy.com/ssg/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.technomotoracademy.com/ssg/vendor/</loc>
   </url>
   
 </urlset>

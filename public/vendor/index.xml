@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vendors on </title>
+    <link>https://www.technomotoracademy.com/ssg/vendor/</link>
+    <description>Recent content in Vendors on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-ID</language>
+    
+	<atom:link href="https://www.technomotoracademy.com/ssg/vendor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.technomotoracademy.com/ssg/vendor/phpmailer/phpmailer/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.technomotoracademy.com/ssg/vendor/phpmailer/phpmailer/readme/</guid>
+      <description>PHPMailer - A full-featured email creation and transfer class for PHP Build status:   
+   
+Class Features  Probably the world&amp;rsquo;s most popular code for sending email from PHP! Used by many open-source projects: WordPress, Drupal, 1CRM, SugarCRM, Yii, Joomla! and many more Integrated SMTP support - send without a local mail server Send emails with multiple To, CC, BCC and Reply-to addresses Multipart/alternative emails for mail clients that do not read HTML email Add attachments, including inline Support for UTF-8 content and 8bit, base64, binary, and quoted-printable encodings SMTP authentication with LOGIN, PLAIN, CRAM-MD5 and XOAUTH2 mechanisms over SSL and SMTP+STARTTLS transports Validates email addresses automatically Protect against header injection attacks Error messages in over 50 languages!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.technomotoracademy.com/ssg/vendor/phpmailer/phpmailer/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.technomotoracademy.com/ssg/vendor/phpmailer/phpmailer/security/</guid>
+      <description>Security notices relating to PHPMailer Please disclose any vulnerabilities found responsibly - report any security problems found to the maintainers privately.
+PHPMailer versions prior to 6.0.6 and 5.2.27 are vulnerable to an object injection attack by passing phar:// paths into addAttachment() and other functions that may receive unfiltered local paths, possibly leading to RCE. Recorded as CVE-2018-19296. See this article for more info on this type of vulnerability. Mitigated by blocking the use of paths containing URL-protocol style prefixes such as phar://.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.technomotoracademy.com/ssg/vendor/vlucas/valitron/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.technomotoracademy.com/ssg/vendor/vlucas/valitron/readme/</guid>
+      <description>Valitron: Easy Validation That Doesn&amp;rsquo;t Suck Valitron is a simple, minimal and elegant stand-alone validation library with NO dependencies. Valitron uses simple, straightforward validation methods with a focus on readable and concise syntax. Valitron is the simple and pragmatic validation library you&amp;rsquo;ve been looking for.
+  
+Why Valitron? Valitron was created out of frustration with other validation libraries that have dependencies on large components from other frameworks like Symfony&amp;rsquo;s HttpFoundation, pulling in a ton of extra files that aren&amp;rsquo;t really needed for basic validation.</description>
+    </item>
+    
+  </channel>
+</rss>

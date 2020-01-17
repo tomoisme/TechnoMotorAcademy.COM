@@ -14,21 +14,14 @@ File : dz.ajax.js
 
 function contactForm()
 {
-	window.verifyRecaptchaCallback = function (response) {
-        $('input[data-recaptcha]').val(response).trigger('change');
-    }
-
-    window.expiredRecaptchaCallback = function () {
-        $('input[data-recaptcha]').val("").trigger('change');
-    }
 	'use strict';
 	var msgDiv;
 	$(".dzForm").submit(function(e)
 	{
 		e.preventDefault();	//STOP default action
-		$('.dzFormMsg').html('<div class="gen alert alert-success">Submiting..</div>');
+		$('.dzFormMsg').html('<div class="gen alert alert-success">Mengirimkan data kamu..</div>');
 		var dzFormAction = $(this).attr('action');
-		var dzFormData = $(this).serialize();
+		var dzFormData = $(".dzForm").serialize();
 		
 		$.ajax({
 			method: "POST",
@@ -39,13 +32,24 @@ function contactForm()
 				if(dzRes.status == 1){
 					msgDiv = '<div class="gen alert alert-success">'+dzRes.msg+'</div>';
 				}
+
+				console.log(dzRes.status);
 				
 				if(dzRes.status == 0){
-					msgDiv = '<div class="err alert alert-danger">'+dzRes.msg+'</div>';
+					if(typeof(dzRes.msg) === Object) {
+						// errMsg = JSON.stringify(dzRes.msg);
+						console.log('error berupa object');
+						msgDiv = '<div class="err alert alert-danger">'+dzRes.msg+'</div>';		
+					} else {
+						msgDiv = '<div class="err alert alert-danger">'+dzRes.msg+'</div>';
+					}					
 				}
 				$('.dzFormMsg').html(msgDiv);
 				$('.dzForm')[0].reset();
-                grecaptcha.reset();
+			},
+			error: function(jqXHR, status, exception) {
+				console.log(JSON.stringify(jqXHR));
+				console.log(exception);
 			}
 		})
 	});
