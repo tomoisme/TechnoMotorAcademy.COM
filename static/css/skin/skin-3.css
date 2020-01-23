@@ -4,7 +4,7 @@
 
 :root{
 	--color-primary: #ffde02;
-	--color-secondry: #ffde02;
+	--color-secondary: #39ebff;
 	--color-hover: #ffde02;
 }
 
@@ -189,7 +189,7 @@ button.scroltop,
 }
 /* Rgba color */
 .dlab-info-has.bg-primary,
-.dlab-info-has.bg-secondry:hover,
+.dlab-info-has.bg-second:hover,
 .tp-bannertimer.tp-bottom {
     background-color: rgba(26, 188, 156, 0.9);
 }
@@ -251,8 +251,8 @@ h6 a:hover,
 .testimonial-15 .testimonial-position,
 .section-full.bg-black .testimonial-15 .quote-left:before, 
 .section-full.bg-black .testimonial-15 .quote-right:after,
-.section-full.bg-secondry .testimonial-15 .quote-left:before, 
-.section-full.bg-secondry .testimonial-15 .quote-right:after,
+.section-full.bg-second .testimonial-15 .quote-left:before, 
+.section-full.bg-second .testimonial-15 .quote-right:after,
 .testimonial-14 .testimonial-detail:after,
 .testimonial-14.quote-left:before,
 .dlab-post-meta ul li,
@@ -335,20 +335,20 @@ button.scroltop.style3:after,
 /*===================== 
 	Secondery bg color
  =====================*/
-.bg-secondry,
+.bg-second,
 .testimonial-14 .testimonial-detail,
 .lg-outer .lg-toogle-thumb, 
 .lg-outer .lg-thumb-outer, 
 .lg-outer .lg-img-wrap, .lg-outer .lg-item,
 .frame-box .header-nav .nav > li.active > a, 
 .frame-box .header-nav .nav > li > a:hover{
-    background-color: #f36523;
+    background-color: #39ebff;
 }
 
 /*===================== 
 	Secondery text color
  =====================*/
-.text-secondry {
+.text-secondary {
     color: #2d3239;
 }
 
@@ -358,7 +358,7 @@ button.scroltop.style3:after,
  
 a.text-primary:hover,
 button.scroltop.white{
-	color: #f36523 !important;
+	color: #ffde02 !important;
 }
 .text-primary,
 .site-footer .footer-bottom a:hover,
@@ -373,7 +373,7 @@ footer .widget_services ul li a:hover,
 }
 a.bg-primary:focus,
 a.bg-primary:hover{
-	background-color: #f36523 !important;
+	background-color: #ffde02 !important;
 }
 .testimonial-14,
 .dlab-team11-area.dots-theme.owl-theme .owl-dots .owl-dot.active span,

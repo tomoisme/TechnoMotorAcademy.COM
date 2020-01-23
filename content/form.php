@@ -90,9 +90,10 @@ if ($validator->validate() != true) {
 
         //Recipients
         $mail->setFrom('no-reply@mrmontir.com', 'Data Form Minat TMA');
-        $mail->addAddress('warman@technomotoracademy.com'); // Add a recipient
-        $mail->addCC('indah@technomotoracademy.com');
-        $mail->addBCC('christo.tomo@gmail.com', 'Tomo'); // Add a recipient
+        $mail->addAddress('christo.tomo@gmail.com');
+        // $mail->addAddress('warman@technomotoracademy.com');
+        // $mail->addCC('indah@technomotoracademy.com');
+        // $mail->addBCC('christo.tomo@gmail.com', 'Tomo'); // Add a recipient
         // $mail->addReplyTo('tomo@technomotor.co.id', 'Test Form Minat');
         // $mail->addCC('cc@example.com');
         // $mail->addBCC('christo.tomo@gmail.com');
