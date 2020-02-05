@@ -824,6 +824,10 @@
                                         </select>
                                     </div>
                                     <br>
+                                    <div class="input-group">
+                                        <input type="text" name="alamat" id="formAlamat" class="form-control" placeholder="Alamat">
+                                    </div>
+                                    <br>
                                     <button name="submit" value="Submit" type="submit"
                                         class="btn btn-outline-primary">Daftar</button>
 
@@ -911,10 +915,11 @@
         var nama = $("input[name=nama]").val();
         var nohp = $("input[name=nohp]").val();
         var kelas = $("select[name=kelas]").val();
+        var alamat = $("input[name=alamat]").val();
 
         $("#wabutton").click(function () {
             $('#wabutton').attr('href', function () {
-                return this.href + "&text=Nama%3A%20" + nama + "%0ANo.%20HP%3A%20" + nohp + "%0AKelas%3A%20" + kelas;
+                return this.href + "&text=Nama%3A%20" + nama + "%0ANo.%20HP%3A%20" + nohp + "%0AKelas%3A%20" + kelas + "%0AAlamat%3A%20" + alamat;
             });
         });
     });	 

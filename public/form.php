@@ -57,19 +57,22 @@ if ($validator->validate() != true) {
     $data = [
         'nama'      => $_POST['nama'],
         'nohp'      => $_POST['nohp'],
-        'kelas'     => $_POST['kelas']
+        'kelas'     => $_POST['kelas'],
+        'alamat'    => $_POST['alamat']
     ];
     $sql = "
         INSERT INTO 
             pendaftaran (
                 nama, 
                 nohp, 
-                kelas
+                kelas,
+                alamat
             ) 
         VALUES (
             :nama, 
             :nohp, 
-            :kelas
+            :kelas,
+            :alamat
         )";
     $input_data = $pdo->prepare($sql);
     $input_data->execute($data);
@@ -90,8 +93,9 @@ if ($validator->validate() != true) {
 
         //Recipients
         $mail->setFrom('no-reply@mrmontir.com', 'Data Form Minat TMA');
-        $mail->addAddress('christo.tomo@gmail.com');
-        // $mail->addAddress('warman@technomotoracademy.com');
+        $mail->addAddress('warman@technomotoracademy.com');
+        $mail->addCC('indah@technomotoracademy.com');
+        $mail->addBCC('christo.tomo@gmail.com');
         // $mail->addCC('indah@technomotoracademy.com');
         // $mail->addBCC('christo.tomo@gmail.com', 'Tomo'); // Add a recipient
         // $mail->addReplyTo('tomo@technomotor.co.id', 'Test Form Minat');
@@ -108,7 +112,8 @@ if ($validator->validate() != true) {
         $mail->Body ="
                 Nama: $_POST[nama] <br><br>
                 No HP: $_POST[nohp] <br><br>
-                Email: $_POST[kelas] <br>
+                Email: $_POST[kelas] <br><br>
+                Alamat: $_POST[alamat]<br>
             ";
 
         $mail->send();
